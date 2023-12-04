@@ -8,7 +8,7 @@ const UserProfileScreen = ({route,navigation}) => {
   const userData = {
     username: 'Quang Hiếu',
     email:'taquanghieu812001@gmail.com',
-    avatar: require('../assets/icon/Profile-ic.png'), // URL của hình ảnh avatar
+    avatar: require('../../assets/icon/Profile-ic.png'), // URL của hình ảnh avatar
   };
 
   const handleLogout = () => {

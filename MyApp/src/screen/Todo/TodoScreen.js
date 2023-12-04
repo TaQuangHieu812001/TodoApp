@@ -80,7 +80,7 @@ const TodoListScreen = ({navigation}) => {
     <Layout style={styles.container}>
         <TouchableOpacity style={styles.btnProfile} onPress={()=>navigation.navigate('UserProfileScreen')}>
           <Image
-           source={require('../assets/icon/Profile-ic.png')}
+           source={require('../../assets/icon/Profile-ic.png')}
             resizeMode='contain'
             style={styles.btnProfile}
           />

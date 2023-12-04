@@ -4,8 +4,8 @@ import {Layout, Input, Button, Text } from '@ui-kitten/components';
 import styles from './styles';
 
 const LoginScreen = ({navigation}) => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState('taquanghieu@gmail.com');
+  const [password, setPassword] = useState('123456');
 
   const handleLogin = () => {
     if (email === 'taquanghieu@gmail.com' && password === '123456') {

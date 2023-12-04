@@ -31,7 +31,6 @@ const styles = StyleSheet.create({
   list: {
     backgroundColor: '#3366FF',
     width: '100%',
-
     alignSelf: 'center',
     marginTop: 10,
     borderRadius: 4,
